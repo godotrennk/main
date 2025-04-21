@@ -1,0 +1,30 @@
+Пользовательский агент: Яндекс
+Disallow: /search/
+Disallow: /ru/search/
+Disallow: /en/search/
+Очистить параметр: utm_source&utm_medium&utm_term&utm_campaign /
+
+Пользовательский агент: Googlebot
+Disallow: /search/
+Disallow: /ru/search/
+Disallow: /en/search/
+Запретить: /*?*utm_source=
+Запретить: /*?*utm_medium=
+Запретить: /*?*utm_term=
+Запретить: /*?*utm_campaign=
+
+Пользовательский агент: Slurp
+Задержка сканирования: 8
+Запретить: /search/
+Запретить: /ru/search/
+Запретить: /en/search/
+Запретить: /*?*utm_
+
+User-agent: *
+Crawl-delay: 10
+Disallow: /search/
+Disallow: /ru/search/
+Disallow: /en/search/
+Disallow: /*?*utm_
+
+teletext
